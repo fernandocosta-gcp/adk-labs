@@ -1,0 +1,25 @@
+# Python virtual environments (e.g. adk-quickstart)
+.venv/
+venv/
+ENV/
+env/
+*/.venv/
+*/venv/
+*/env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*/__pycache__/
+
+# Environment and sensitive keys (DO NOT COMMIT SECRETS)
+.env
+.env.*
+*.key
+*.pem
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store

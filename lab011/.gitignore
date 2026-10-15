@@ -1,0 +1,22 @@
+.env
+.adk/
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and secrets (CRITICAL: Do not leak API keys)
+.env
+.env.local
+*.key
+*.pem
+
+# IDE configs
+.vscode/
+.idea/
