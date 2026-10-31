@@ -32,4 +32,5 @@ This repository contains multiple ADK lab projects:
 - `lab044/`: Loop Agent pattern
 - `lab055/`: Parallel Agent pattern
 - `lab066/`: Hybrid approach (from previous pattern)
+- `lab077/`: HITL (Human in the Loop)
 
