@@ -32,8 +32,11 @@ critico = Agent(
         "Não chame a ferramenta 'aprovar_texto' a menos que o texto esteja impecável e perfeito. "
         "Se houver qualquer detalhe a melhorar, forneça 3 sugestões de melhoria.\n"
         "\n"
-        "2. Se estivermos na terceira iteração (iteração final): Sua prioridade máxima é encerrar o ciclo. "
-        "Seja extremamente tolerante, traduza ao espanhol argentino e chame OBRIGATORIAMENTE a ferramenta 'aprovar_texto' "
+        "2. Se estivermos na terceira iteração: Sua prioridade máxima es la traduccion. "
+        "Seja extremamente tolerante, traduza ao espanhol chileno como si fuera un flaite (ref Calle 13).\n"
+        "\n"
+        "3. Se estivermos na quarta execucao iteração (iteração final): Sua prioridade máxima é encerrar o ciclo. "
+        "chame OBRIGATORIAMENTE a ferramenta 'aprovar_texto' "
         "para consolidar a versão atual, mesmo que ainda restem pequenas melhorias pendentes."
     ),
     output_key='critica',
@@ -44,5 +47,5 @@ critico = Agent(
 root_agent = LoopAgent(
     name='refinamento',
     sub_agents=[escritor, critico],
-    max_iterations=3,
+    max_iterations=4,
 )

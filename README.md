@@ -31,4 +31,5 @@ This repository contains multiple ADK lab projects:
 - `lab033/`: Sequential Agent pattern
 - `lab044/`: Loop Agent pattern
 - `lab055/`: Parallel Agent pattern
+- `lab066/`: Hybrid approach (from previous pattern)
 
