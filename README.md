@@ -34,6 +34,7 @@ This repository contains multiple ADK lab projects:
 - `lab066/`: Hybrid approach (from previous pattern)
 - `lab077/`: HITL (Human in the Loop)
 - `lab088/`: WebRAG
+- `lab099/`: Multi-agent offer intelligence pipeline
 
 ## Performance alert
 ### Performance Alert: System instructions were modified between consecutive turns in this session. This change breaks context cache alignment, resulting in a cache miss that increases generation latency for subsequent requests.
