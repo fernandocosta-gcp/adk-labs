@@ -35,6 +35,8 @@ This repository contains multiple ADK lab projects:
 - `lab077/`: HITL (Human in the Loop)
 - `lab088/`: WebRAG
 - `lab099/`: Multi-agent offer intelligence pipeline
+- `lab100/`: SequentialAgent + WebRAG
+- `lab101/`: Bypass Tools Limit + WebRAG + Context State
 
 ## Performance alert
 ### Performance Alert: System instructions were modified between consecutive turns in this session. This change breaks context cache alignment, resulting in a cache miss that increases generation latency for subsequent requests.
