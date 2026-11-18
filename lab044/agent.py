@@ -15,7 +15,7 @@ escritor = Agent(
     model = MODEL,
     instruction = (
         'Escreva um paragrafo sobre o tema informado pelo usuario'
-        'Se houver texto anterior ({texto?) e critica ({critica?}),'
+        'Se houver texto anterior ({texto?}) e critica ({critica?}),'
         'reescreva incoporando as melhorias solicitadas e sugeridas'  
     ),
     output_key='texto',
